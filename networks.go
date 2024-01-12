@@ -28,6 +28,13 @@ var Networks = map[string]Network{
 		Unit:        "SepoliaETH",
 		ExplorerURL: "https://sepolia.etherscan.io",
 	},
+	"holesky": {
+		Name:        "holesky",
+		URL:         "https://ethereum-holesky.publicnode.com/",
+		ChainID:     big.NewInt(17000),
+		Unit:        "HoleETH",
+		ExplorerURL: "https://holesky.etherscan.io",
+	},
 	"ethereum": {
 		Name: "ethereum",
 		// change the URL
